@@ -1,27 +1,109 @@
-# SeiamaEngenharia
+# SEIAMA Engenharia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+Site institucional desenvolvido para a **SEIAMA Engenharia**, empresa especializada em manutenção e serviços elétricos industriais.
 
-## Development server
+O projeto foi desenvolvido com foco em uma apresentação profissional da empresa, destacando seus serviços, equipamentos disponíveis para locação, clientes, atendimento 24 horas e formas de contato.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias
 
-## Code scaffolding
+* Angular
+* TypeScript
+* Tailwind CSS
+* SCSS
+* HTML5
+* CSS3
+* Lucide Icons
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📋 Funcionalidades
 
-## Build
+* Página institucional responsiva
+* Menu de navegação com âncoras
+* Menu mobile
+* Seção "Sobre a SEIAMA"
+* Apresentação dos serviços
+* Detalhamento dos serviços
+* Slideshow de imagens
+* Carrossel de equipamentos para locação
+* Navegação por setas no carrossel
+* Suporte a navegação por toque em dispositivos móveis
+* Apresentação dos clientes
+* Seção de atendimento 24 horas
+* Integração com WhatsApp
+* Informações de contato
+* Google Maps
+* Layout responsivo para desktop, tablet e dispositivos móveis
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🖥️ Executando o projeto localmente
 
-## Running unit tests
+### Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Antes de executar o projeto, é necessário ter instalado:
 
-## Running end-to-end tests
+* Node.js
+* npm
+* Angular CLI
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Instalação
 
-## Further help
+Clone o repositório:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta:
+
+```bash
+cd seiama-engenharia
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+ng serve
+```
+
+Depois, acesse:
+
+```text
+http://localhost:4200
+```
+
+## 📱 Responsividade
+
+O site foi desenvolvido para se adaptar a diferentes tamanhos de tela, incluindo:
+
+* Desktop
+* Notebook
+* Tablet
+* Smartphones
+
+No mobile, o projeto possui um menu de navegação específico e carrossel de equipamentos com suporte a gestos de toque.
+
+## 📂 Estrutura
+
+O projeto utiliza uma organização baseada em componentes do Angular, separando as principais áreas da página em componentes independentes.
+
+Entre as principais seções estão:
+
+* Cabeçalho
+* Hero
+* Sobre
+* Serviços
+* Equipamentos
+* Clientes
+* Atendimento 24h
+* Contato
+* Rodapé
+
+## 👨‍💻 Desenvolvimento
+
+Projeto desenvolvido como solução web institucional para a SEIAMA Engenharia, utilizando Angular e TypeScript.
+
+O desenvolvimento priorizou organização de componentes, responsividade, reutilização de estilos e uma experiência adequada para usuários em dispositivos desktop e mobile.

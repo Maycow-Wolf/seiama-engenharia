@@ -1,0 +1,46 @@
+<section 
+    id="clientes" 
+    class="bg-slate-950 text-white py-24"
+>
+
+    <div class="container mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <span class="text-cyan-400 uppercase tracking-widest font-semibold">
+                Clientes e Parceiros
+            </span>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-4">
+                Empresas que confiam em nosso trabalho
+            </h2>
+
+            <p class="text-slate-400 mt-6 max-w-3xl mx-auto leading-relaxed">
+                Atuamos com responsabilidade, qualidade e compromisso,
+                construindo relações sólidas com grandes empresas
+                e parceiros do mercado.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
+
+            @for (cliente of listaClientes; track cliente.nome) {
+
+                <div data-aos="fade-up"
+                    class="bg-slate-800 border border-slate-700 rounded-3xl p-10 flex items-center 
+                    justify-center hover:border-cyan-400 transition duration-300 hover:-translate-y-2"
+                    >
+
+                    <img 
+                        [src]="cliente.logo" 
+                        [alt]="cliente.nome"
+                        class="max-h-20 object-contain grayscale hover:grayscale-0 transition duration-500"
+                        >
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+</section>

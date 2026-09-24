@@ -1,0 +1,98 @@
+<header class="bg-slate-900 text-white shadow-lg fixed w-full z-50">
+
+  <div class="container mx-auto flex items-center justify-between px-6 py-4">
+
+    <div class="flex items-center gap-4">
+
+      <img src="assets/logo.webp" alt="Logo SEIAMA Engenharia" class="h-14 w-auto" />
+
+      <div>
+        <h1 class="text-2xl font-bold tracking-wide">
+          SEIAMA Engenharia
+        </h1>
+
+        <p class="text-sm text-slate-400">
+          Manutenção Industrial
+        </p>
+      </div>
+
+    </div>
+
+    <nav class="hidden md:flex gap-8 text-sm font-medium">
+
+      <a href="#inicio" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Início
+      </a>
+
+      <a href="#sobre" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Sobre
+      </a>
+
+      <a href="#servicos" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Serviços
+      </a>
+
+      <a href="#equipamentos" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Locação
+      </a>
+
+      <a href="#clientes" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Clientes
+      </a>
+
+      <a href="#contato" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Contato
+      </a>
+
+    </nav>
+
+
+    <button class="md:hidden" (click)="alternarMenu()">
+
+      @if (!menuAberto()) {
+      <lucide-icon [img]="Menu"></lucide-icon>
+      } @else {
+      <lucide-icon [img]="X"></lucide-icon>
+      }
+
+    </button>
+
+  </div>
+
+  @if (menuAberto()) {
+
+  <div class="md:hidden bg-slate-800 border-t border-slate-700 animate-fade">
+
+    <nav class="flex flex-col p-6 gap-4 text-sm font-medium">
+
+      <a href="#inicio" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Início
+      </a>
+
+      <a href="#sobre" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Sobre
+      </a>
+
+      <a href="#servicos" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Serviços
+      </a>
+
+      <a href="#equipamentos" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Locação
+      </a>
+
+      <a href="#clientes" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Clientes
+      </a>
+
+      <a href="#contato" (click)="fecharMenu()" class="hover:text-cyan-400 transition">
+        Contato
+      </a>
+
+    </nav>
+
+  </div>
+
+  }
+
+</header>
