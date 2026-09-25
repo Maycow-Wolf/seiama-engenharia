@@ -61,47 +61,47 @@ aoFinalizarToque(event: TouchEvent): void {
     {
       nome: 'Megôhmetro 5KV',
       imagem: 'assets/equipamentos/megger.jpg',
-      descricao: 'Teste de resistência de isolamento elétrico.'
+      descricao: 'Teste de resistência ôhmica de isolamento elétrico.'
     },
     {
       nome: 'Alicate Terrômetro',
-      imagem: 'assets/equipamentos/alicate-terrometro.webp',
-      descricao: 'Medição de aterramento com precisão e segurança.'
+      imagem: 'assets/equipamentos/alicate-terrometro.jpg',
+      descricao: 'Medição de aterramento e correntes de fuga com precisão e segurança.'
     },
     {
       nome: 'Tempo-Triplo',
-      imagem: 'assets/equipamentos/tempo-triplo.png',
-      descricao: 'Equipamento utilizado em testes de disjuntores.'
+      imagem: 'assets/equipamentos/tempo-triplo.jpg',
+      descricao: 'Equipamento utilizado para medir de forma precisa e simultânea o tempo de abertura e fechamento dos contatos.'
     },
     {
       nome: 'Gerador',
-      imagem: 'assets/equipamentos/gerador.webp',
+      imagem: 'assets/equipamentos/gerador.jpg',
       descricao: 'Equipamento para geração de energia e testes industriais.'
     },
     {
       nome: 'Hipot 60 KV',
-      imagem: 'assets/equipamentos/hipot.png',
-      descricao: 'Equipamento para testes de alta tensão.'
+      imagem: 'assets/equipamentos/hipot.jpg',
+      descricao: 'Equipamento usado para realizar o ensaio de rigidez dielétrica e verificar a qualidade do isolamento elétrico.'
     },
     {
       nome: 'Microohmímetro',
       imagem: 'assets/equipamentos/microohmimetro.jpg',
-      descricao: 'Teste de resistência de contato.'
+      descricao: 'Instrumento eletrônico de alta precisão projetado para medir resistências de contato e integridade dos enrolamentos.'
     },
     {
       nome: 'Termovisor',
-      imagem: 'assets/equipamentos/termovisor.webp',
-      descricao: 'Inspeção térmica para manutenção preditiva.'
+      imagem: 'assets/equipamentos/termovisor.jpg',
+      descricao: 'Dispositivo portátil para inspeção térmica dos equipamentos.'
     },
     {
       nome: 'TTR',
       imagem: 'assets/equipamentos/ttr.jpg',
-      descricao: 'Teste de relação de transformação em transformadores.'
+      descricao: 'Instrumento de ensaio elétrico essencial que mede a relação de transformação em transformadores.'
     },
     {
       nome: 'Caixa de Calibração de Relé',
-      imagem: 'assets/equipamentos/caixa-calibracao-rele.webp',
-      descricao: 'Calibração e testes em sistemas de proteção.'
+      imagem: 'assets/equipamentos/caixa-calibracao-rele.jpg',
+      descricao: 'O principal instrumento utilizado para a aferição, ensaio e calibração de relés de proteção elétrica.'
     }
 
   ];
